@@ -1,7 +1,7 @@
 from typing import List
 
 def insertionSort(array) -> List[int]:
-  l=len(array)
+  l=len(array) 
   for i in range(1,l):
     item=array[i]
     currentitem=i-1
